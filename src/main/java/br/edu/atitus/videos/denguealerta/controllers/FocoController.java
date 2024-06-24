@@ -50,7 +50,7 @@ public class FocoController {
 	
 	@GetMapping
 	public ResponseEntity<Page<FocoEntity>> getMethod(
-			@PageableDefault(sort = "data", direction = Direction.DESC, page = 0, size = 5)
+			@PageableDefault(sort = "data", direction = Direction.DESC, page = 0, size = 10)
 			Pageable pageable) throws Exception {
 		var listaFocos = this.focoService.findAll(pageable);
 		return ResponseEntity.ok(listaFocos);
