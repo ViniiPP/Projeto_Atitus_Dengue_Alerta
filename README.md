@@ -3,7 +3,7 @@
 
 Este projeto que tem por objetivo registrar e armazenar denúncias de focos de mosquitos da Dengue.
 
-Este projeto foi desenvolvido em sala de aula.
+Este projeto foi desenvolvido em sala de aula
 
 
 ## Tecnologias Usadas
